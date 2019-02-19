@@ -4,6 +4,7 @@ This repo is associated with a paper of drug repositioning study. Because of per
 
 # Guides
 1. Put your raw text data in folder "MedHelp"
+   * "dataset_prep.py" can help you to preprocess the raw texts (e.g. tokenize) if needed
 2. Put association matrices between drug, disease, and ADR in folder "Dataset"
    * The associations could come from some existing biomedical databases.
    * If you want to calculate associations between D,R,ADR on your text data, please run "association.py"
